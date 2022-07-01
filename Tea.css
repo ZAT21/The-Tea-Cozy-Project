@@ -1,0 +1,113 @@
+body {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    background-color: black;
+}
+.title-banner img {
+    height: 50px;
+    margin-left: 10px;
+}
+.title-banner {
+    text-align: left;
+}
+header {
+    height: 69px;
+    width: inherit;
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+    
+    
+}
+.navigation-bar a {
+    margin: 0 10px;
+    color: seashell;
+}
+.mission-container {
+    background-image: url("D:/teacozy/code/src/css/images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 1200px;
+    height:700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission {
+    width:1200px;
+    opacity: 1;
+    background-color: black;
+}
+h2 {
+    font-size: 35px;
+
+}
+.mission h2 {
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+.featuredtea {
+    width:1000px;
+    height:550x;
+    margin: auto auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+figure {
+    margin: 0 15px 10px 5px;
+    
+}
+figure img {
+    height:200px;
+    width:300px;
+    margin-bottom: 10px;
+}
+
+.locations {
+    height: 700px;
+    width: 1200px;
+    margin: 20px auto;
+    background-image:url("D:/teacozy/code/src/css/images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+}
+
+.location-container {
+    width: 300px;
+    margin: 0 20px auto 20px;
+    opacity: 1;
+    background-color: black;
+    display: inline-block;
+    position:relative;
+    top: 135px;
+}
+
+.location-head h2 {
+    position:relative;
+    top: 120px;
+  
+}
+.footer {
+    height:200px;
+}
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+
+
+
